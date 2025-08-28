@@ -70,16 +70,16 @@ margin: 5px 0;
 }
 
 @media (max-width: 500px) {
-.weather-app {
+#weather-app {
     width: 90%;
     padding: 20px;
 }
 
-.search-box {
+#search-box {
     flex-direction: column;
 }
 
-.search-box input, .search-box button {
+#search-box input, #search-box button {
     border-radius: 5px;
     width: 100%;
     margin: 5px 0;
