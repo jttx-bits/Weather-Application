@@ -12,7 +12,7 @@ async function getWeather() {
         if (city === '') {
             resultdiv.innerHTML = 'Please enter a city';
         }
-        const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`);
+        const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=London&aqi=no`);
         if (!response.ok) {
             throw new Error('City not found');
         }
