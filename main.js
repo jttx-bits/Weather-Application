@@ -1,8 +1,12 @@
+
+
+const apiKey = 'bf5773950bfe4b0e80752001252808';
+
 async function getWeather() {
 
     try {
 
-        const apikey = 'bf5773950bfe4b0e80752001252808';
+        const apiKey = 'bf5773950bfe4b0e80752001252808';
         const city = document.getElementById('city-input');
         const resultdiv = document.getElementById('weather-result');
         if (city === '') {
